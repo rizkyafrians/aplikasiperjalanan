@@ -39,10 +39,10 @@ if(empty($_SESSION['nik'])){ ?>
     <div id="wrapper">
 
         <!-- Sidebar -->
-        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+        <ul class="navbar-nav bg-gradient-dark sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
-            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="">
                 <div class="sidebar-brand-icon rotate-n-15">
                     <i class="fas fa-book"></i>
                 </div>
@@ -55,7 +55,7 @@ if(empty($_SESSION['nik'])){ ?>
             <!-- Nav Item - Dashboard -->
             <li class="nav-item">
                 <a class="nav-link" href="user.php">
-                    <i class="fas fa-fw fa-tachometer-alt"></i>
+                    <i class="fas fa-fw fa-home"></i>
                     <span>Dashboard</span></a>
             </li>
 
@@ -70,7 +70,7 @@ if(empty($_SESSION['nik'])){ ?>
             <!-- Nav Item - Charts -->
             <li class="nav-item">
                 <a class="nav-link" href="?url=tulis_catatan">
-                    <i class="fas fa-fw fa-clone"></i>
+                    <i class="fas fa-fw fa-pen"></i>
                     <span>Tulis Catatan / Perjalanan</span></a>
             </li>
 

@@ -22,7 +22,7 @@
 
 </head>
 
-<body class="bg-gradient-primary">
+<body class="bg-gradient-danger">
 
     <div class="container">
 
@@ -38,12 +38,12 @@
                             <div class="col-lg-12">
                                 <div class="p-5">
                                     <div class="text-center">
-                                        <h1 class="h4 text-gray-900 mb-2">Selamat Datang DI Aplikasi Peduli Diri</h1>
+                                        <h1 class="h4 text-gray-900 mb-2">Selamat Datang Di Aplikasi Peduli Diri</h1>
                                         <p>Silakan Masukan NIK dan Nama Lengkap Anda.</p>
                                     </div>
                                     <form class="user" method="post" action="proses_login.php">
                                         <div class="form-group">
-                                            <input name="nik" required type="text" class="form-control form-control-user"
+                                            <input name="nik" required type="number" class="form-control form-control-user"
                                                 id="exampleInputEmail" aria-describedby="emailHelp"
                                                 placeholder="Masukan NIK Anda...">
                                         </div>
@@ -52,11 +52,12 @@
                                                 id="exampleInputPassword" placeholder="Masukan Nama Lengkap Anda...">
                                         </div>
                                         <button type="submit" class="btn btn-primary btn-user btn-block">
-                                            <i class="fa fa-spinner"></i> Login
+                                            <i class="fa fa-login"></i> Login
                                         </button>
                                         <hr>
-                                        <a href="register.php" class="btn btn-facebook btn-user btn-block">
-                                             Belum Punya Akun...? Silakan Ke Halaman Register <i class="fa fa-arrow-right fa-fw"></i>
+                                        <a href="register.php" class="btn btn-primary btn-user btn-block">
+                                             Belum Punya Akun? Klik Disini!</a>
+                                         </p>
                                         </a>
                                     </form>
                                 </div>

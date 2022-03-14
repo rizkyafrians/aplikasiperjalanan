@@ -43,7 +43,7 @@
                                     </div>
                                     <form class="user" method="post" action="proses_register.php">
                                         <div class="form-group">
-                                            <input name="nik" required type="text" class="form-control form-control-user"
+                                            <input name="nik" required type="number" class="form-control form-control-user"
                                                 id="exampleInputEmail" aria-describedby="emailHelp"
                                                 placeholder="Masukan NIK Anda...">
                                         </div>
